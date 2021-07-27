@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: jira-backend
+  datasource:
+    url: jdbc:mysql://15.119.80.199:3306/jira
+    username: root
+    password: Admin_1234
+server:
+  port: 8090
+logging:
+  level:
+    root: info
+  file:
+    name: jira-inf0.log
