@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import javax.persistence.criteria.CriteriaBuilder;
 import java.util.Date;
 
 @Data
@@ -23,15 +24,15 @@ public class Project {
     private String name;
 
     @Basic
-    @Column(name = "personId", nullable = false, unique = true)
-    private String personId;
+    @Column(name = "person_id", nullable = false, unique = true)
+    private Integer personId;
 
     @Basic
     @Column(name = "organization", nullable = false, unique = true)
     private String organization;
 
     @Basic
-    @Column(name = "create", nullable = false, unique = true)
-    private Date create;
+    @Column(name = "created", nullable = false, unique = true)
+    private Date created;
 
 }

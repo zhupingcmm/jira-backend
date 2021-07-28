@@ -6,7 +6,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 @Configuration
 public class CorsConfig extends WebMvcConfigurerAdapter {
-    public static final String ORIGINS[] = new String[]{"GET","POST", "PUT","DELETE"};
+    public static final String ORIGINS[] = new String[]{"GET","POST", "PUT","DELETE","PATCH"};
 
     @Override
     public void addCorsMappings(CorsRegistry registry) {
