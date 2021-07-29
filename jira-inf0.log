@@ -333,3 +333,397 @@
 2021-07-29 10:55:41.288  INFO 2316 --- [http-nio-8090-exec-3] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
 2021-07-29 10:55:46.492  INFO 2316 --- [http-nio-8090-exec-4] c.e.jirabackend.controller.ProjectCtl    : Name is: 
 2021-07-29 10:55:48.989  INFO 2316 --- [http-nio-8090-exec-4] c.e.jirabackend.controller.ProjectCtl    : personId is: 1
+2021-07-29 10:57:52.247  INFO 2316 --- [http-nio-8090-exec-7] c.e.jirabackend.controller.UserCtl       : login User: UserRequest(username=jira, password=jira)
+2021-07-29 10:57:52.282  INFO 2316 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 10:57:55.836  INFO 2316 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 10:57:55.845  INFO 2316 --- [http-nio-8090-exec-9] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 11:05:46.130  INFO 2316 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29 11:05:46.133  INFO 2316 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-29 11:05:46.142  INFO 2316 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-07-29 11:06:00.928  INFO 12680 --- [main] c.e.jirabackend.JiraBackendApplication   : Starting JiraBackendApplication using Java 1.8.0_281 on CNzhuping03 with PID 12680 (C:\code\study\jira-backend\target\classes started by zhuping in C:\code\study\jira-backend)
+2021-07-29 11:06:00.930  INFO 12680 --- [main] c.e.jirabackend.JiraBackendApplication   : No active profile set, falling back to default profiles: default
+2021-07-29 11:06:03.071  INFO 12680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-29 11:06:03.138  INFO 12680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 3 JPA repository interfaces.
+2021-07-29 11:06:03.515  INFO 12680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-07-29 11:06:03.521  INFO 12680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-29 11:06:03.522  INFO 12680 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-07-29 11:06:03.523  INFO 12680 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2021-07-29 11:06:03.523  INFO 12680 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2021-07-29 11:06:03.523  INFO 12680 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2021-07-29 11:06:03.524  INFO 12680 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-07-29 11:06:04.580  INFO 12680 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2021-07-29 11:06:04.694  INFO 12680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-29 11:06:04.694  INFO 12680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3723 ms
+2021-07-29 11:06:04.794  INFO 12680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-29 11:06:05.492  INFO 12680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-29 11:06:05.528  INFO 12680 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-29 11:06:05.563  INFO 12680 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-29 11:06:05.668  INFO 12680 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-29 11:06:05.763  INFO 12680 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-07-29 11:06:06.206  INFO 12680 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-29 11:06:06.216  INFO 12680 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29 11:06:06.526  WARN 12680 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-29 11:06:06.770  INFO 12680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-07-29 11:06:06.777  INFO 12680 --- [main] c.e.jirabackend.JiraBackendApplication   : Started JiraBackendApplication in 6.293 seconds (JVM running for 7.34)
+2021-07-29 12:55:18.757  WARN 12680 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h35m41s19ms286µs500ns).
+2021-07-29 12:59:16.054  INFO 12680 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-29 12:59:16.054  INFO 12680 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-29 12:59:16.055  INFO 12680 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-07-29 12:59:16.097  WARN 12680 --- [http-nio-8090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 12:59:39.429  WARN 12680 --- [http-nio-8090-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 12:59:54.182  INFO 12680 --- [http-nio-8090-exec-5] c.e.jirabackend.controller.AuthCtl       : login User: UserRequest(username=jira, password=jira)
+2021-07-29 12:59:59.575  INFO 12680 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 12:59:59.576  INFO 12680 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 12:59:59.605  INFO 12680 --- [http-nio-8090-exec-9] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:00:13.138  WARN 12680 --- [http-nio-8090-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:00:58.507  WARN 12680 --- [http-nio-8090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:00:59.019  WARN 12680 --- [http-nio-8090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:04.662  WARN 12680 --- [http-nio-8090-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:04.987  WARN 12680 --- [http-nio-8090-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:14.344  WARN 12680 --- [http-nio-8090-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:15.004  WARN 12680 --- [http-nio-8090-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:18.373  WARN 12680 --- [http-nio-8090-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:19.014  WARN 12680 --- [http-nio-8090-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:39.280  WARN 12680 --- [http-nio-8090-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:40.020  WARN 12680 --- [http-nio-8090-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:43.977  WARN 12680 --- [http-nio-8090-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:44.099  WARN 12680 --- [http-nio-8090-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:49.633  WARN 12680 --- [http-nio-8090-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:50.012  WARN 12680 --- [http-nio-8090-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'token' for method parameter type String is not present]
+2021-07-29 13:01:52.429  INFO 12680 --- [http-nio-8090-exec-7] c.e.jirabackend.controller.AuthCtl       : Token is: 
+2021-07-29 13:01:53.008  INFO 12680 --- [http-nio-8090-exec-9] c.e.jirabackend.controller.AuthCtl       : Token is: 
+2021-07-29 13:01:53.439  INFO 12680 --- [http-nio-8090-exec-10] c.e.jirabackend.controller.AuthCtl       : Token is: 
+2021-07-29 13:01:54.012  INFO 12680 --- [http-nio-8090-exec-1] c.e.jirabackend.controller.AuthCtl       : Token is: 
+2021-07-29 13:01:58.656  INFO 12680 --- [http-nio-8090-exec-3] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:01:58.680 ERROR 12680 --- [http-nio-8090-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2] with root cause
+
+javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:128) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1659) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:111) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:196) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:159) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.9.jar:5.3.9]
+	at com.sun.proxy.$Proxy84.findByToken(Unknown Source) ~[na:na]
+	at com.example.jirabackend.service.impl.AuthImpl.getUser(AuthImpl.java:53) ~[classes/:na]
+	at com.example.jirabackend.service.impl.AuthImpl$$FastClassBySpringCGLIB$$61349024.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.3.9.jar:5.3.9]
+	at com.example.jirabackend.service.impl.AuthImpl$$EnhancerBySpringCGLIB$$897b3217.getUser(<generated>) ~[classes/:na]
+	at com.example.jirabackend.controller.AuthCtl.getUser(AuthCtl.java:42) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2021-07-29 13:01:58.989  INFO 12680 --- [http-nio-8090-exec-4] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:01:58.997 ERROR 12680 --- [http-nio-8090-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2] with root cause
+
+javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:128) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1659) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:111) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:196) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:159) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.9.jar:5.3.9]
+	at com.sun.proxy.$Proxy84.findByToken(Unknown Source) ~[na:na]
+	at com.example.jirabackend.service.impl.AuthImpl.getUser(AuthImpl.java:53) ~[classes/:na]
+	at com.example.jirabackend.service.impl.AuthImpl$$FastClassBySpringCGLIB$$61349024.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.3.9.jar:5.3.9]
+	at com.example.jirabackend.service.impl.AuthImpl$$EnhancerBySpringCGLIB$$897b3217.getUser(<generated>) ~[classes/:na]
+	at com.example.jirabackend.controller.AuthCtl.getUser(AuthCtl.java:42) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2021-07-29 13:02:24.273  INFO 12680 --- [http-nio-8090-exec-5] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:02:24.283 ERROR 12680 --- [http-nio-8090-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.IncorrectResultSizeDataAccessException: query did not return a unique result: 2; nested exception is javax.persistence.NonUniqueResultException: query did not return a unique result: 2] with root cause
+
+javax.persistence.NonUniqueResultException: query did not return a unique result: 2
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:128) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.getSingleResult(AbstractProducedQuery.java:1659) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.query.criteria.internal.compile.CriteriaQueryTypeQueryAdapter.getSingleResult(CriteriaQueryTypeQueryAdapter.java:111) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:196) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:88) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:155) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:143) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:159) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.5.3.jar:2.5.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.5.3.jar:2.5.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.9.jar:5.3.9]
+	at com.sun.proxy.$Proxy84.findByToken(Unknown Source) ~[na:na]
+	at com.example.jirabackend.service.impl.AuthImpl.getUser(AuthImpl.java:53) ~[classes/:na]
+	at com.example.jirabackend.service.impl.AuthImpl$$FastClassBySpringCGLIB$$61349024.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.9.jar:5.3.9]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688) ~[spring-aop-5.3.9.jar:5.3.9]
+	at com.example.jirabackend.service.impl.AuthImpl$$EnhancerBySpringCGLIB$$897b3217.getUser(<generated>) ~[classes/:na]
+	at com.example.jirabackend.controller.AuthCtl.getUser(AuthCtl.java:42) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_281]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_281]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_281]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_281]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.50.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_281]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_281]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.50.jar:9.0.50]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_281]
+
+2021-07-29 13:02:31.440  INFO 12680 --- [http-nio-8090-exec-6] c.e.jirabackend.controller.AuthCtl       : login User: UserRequest(username=jira, password=jira)
+2021-07-29 13:02:31.464  INFO 12680 --- [http-nio-8090-exec-7] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:02:31.464  INFO 12680 --- [http-nio-8090-exec-7] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:02:31.474  INFO 12680 --- [http-nio-8090-exec-9] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:02:57.381  INFO 12680 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:07:20.732  WARN 12680 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m31s828ms498µs500ns).
+2021-07-29 13:08:30.123  INFO 12680 --- [http-nio-8090-exec-2] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.554  WARN 12680 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m41s815ms175µs).
+2021-07-29 13:11:02.556  INFO 12680 --- [http-nio-8090-exec-9] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.556  INFO 12680 --- [http-nio-8090-exec-3] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.556  INFO 12680 --- [http-nio-8090-exec-6] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.556  INFO 12680 --- [http-nio-8090-exec-4] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.556  INFO 12680 --- [http-nio-8090-exec-7] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.556  INFO 12680 --- [http-nio-8090-exec-5] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.556  INFO 12680 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.556  INFO 12680 --- [http-nio-8090-exec-10] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.568  INFO 12680 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.568  INFO 12680 --- [http-nio-8090-exec-1] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.568  INFO 12680 --- [http-nio-8090-exec-9] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.569  INFO 12680 --- [http-nio-8090-exec-7] c.e.jirabackend.controller.AuthCtl       : login User: UserRequest(username=jira, password=jira)
+2021-07-29 13:11:02.569  INFO 12680 --- [http-nio-8090-exec-6] c.e.jirabackend.controller.AuthCtl       : login User: UserRequest(username=jira, password=jira)
+2021-07-29 13:11:02.571  INFO 12680 --- [http-nio-8090-exec-2] c.e.jirabackend.controller.AuthCtl       : login User: UserRequest(username=jira, password=jira)
+2021-07-29 13:11:02.574  INFO 12680 --- [http-nio-8090-exec-5] c.e.jirabackend.controller.AuthCtl       : login User: UserRequest(username=jira, password=jira)
+2021-07-29 13:11:02.574  INFO 12680 --- [http-nio-8090-exec-10] c.e.jirabackend.controller.AuthCtl       : login User: UserRequest(username=jira, password=jira)
+2021-07-29 13:11:02.576  INFO 12680 --- [http-nio-8090-exec-4] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.605  INFO 12680 --- [http-nio-8090-exec-3] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:02.605  INFO 12680 --- [http-nio-8090-exec-3] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:02.623  INFO 12680 --- [http-nio-8090-exec-8] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:02.976  INFO 12680 --- [http-nio-8090-exec-9] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:02.996  INFO 12680 --- [http-nio-8090-exec-1] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:02.996  INFO 12680 --- [http-nio-8090-exec-1] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:03.014  INFO 12680 --- [http-nio-8090-exec-4] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:07.269  INFO 12680 --- [http-nio-8090-exec-7] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:07.329  INFO 12680 --- [http-nio-8090-exec-6] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:07.329  INFO 12680 --- [http-nio-8090-exec-6] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:07.347  INFO 12680 --- [http-nio-8090-exec-2] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:08.651  INFO 12680 --- [http-nio-8090-exec-5] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:08.705  INFO 12680 --- [http-nio-8090-exec-10] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:08.705  INFO 12680 --- [http-nio-8090-exec-10] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:08.723  INFO 12680 --- [http-nio-8090-exec-3] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:10.015  INFO 12680 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:10.067  INFO 12680 --- [http-nio-8090-exec-9] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:10.068  INFO 12680 --- [http-nio-8090-exec-9] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:10.083  INFO 12680 --- [http-nio-8090-exec-4] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:11.123  INFO 12680 --- [http-nio-8090-exec-1] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:11.174  INFO 12680 --- [http-nio-8090-exec-7] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:11.174  INFO 12680 --- [http-nio-8090-exec-7] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:11.189  INFO 12680 --- [http-nio-8090-exec-6] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:12.090  INFO 12680 --- [http-nio-8090-exec-2] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:12.117  INFO 12680 --- [http-nio-8090-exec-5] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:12.117  INFO 12680 --- [http-nio-8090-exec-5] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:12.141  INFO 12680 --- [http-nio-8090-exec-3] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:12.844  INFO 12680 --- [http-nio-8090-exec-10] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:12.895  INFO 12680 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:12.895  INFO 12680 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:12.910  INFO 12680 --- [http-nio-8090-exec-9] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:13.716  INFO 12680 --- [http-nio-8090-exec-4] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:13.772  INFO 12680 --- [http-nio-8090-exec-1] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:13.773  INFO 12680 --- [http-nio-8090-exec-1] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:13.794  INFO 12680 --- [http-nio-8090-exec-7] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:14.696  INFO 12680 --- [http-nio-8090-exec-6] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:14.741  INFO 12680 --- [http-nio-8090-exec-2] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:14.742  INFO 12680 --- [http-nio-8090-exec-2] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:14.756  INFO 12680 --- [http-nio-8090-exec-3] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:15.371  INFO 12680 --- [http-nio-8090-exec-5] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:15.441  INFO 12680 --- [http-nio-8090-exec-10] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:15.441  INFO 12680 --- [http-nio-8090-exec-10] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:15.461  INFO 12680 --- [http-nio-8090-exec-9] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]
+2021-07-29 13:11:15.985  INFO 12680 --- [http-nio-8090-exec-8] c.e.jirabackend.controller.AuthCtl       : Token is: -1193959466
+2021-07-29 13:11:16.038  INFO 12680 --- [http-nio-8090-exec-4] c.e.jirabackend.controller.ProjectCtl    : Name is: 
+2021-07-29 13:11:16.038  INFO 12680 --- [http-nio-8090-exec-4] c.e.jirabackend.controller.ProjectCtl    : personId is: 
+2021-07-29 13:11:16.053  INFO 12680 --- [http-nio-8090-exec-1] c.e.j.service.impl.UserInfoImpl          : Userinfo data: [UserInfo(id=1, name=高修文), UserInfo(id=2, name=熊天成), UserInfo(id=3, name=郑华), UserInfo(id=4, name=王文静)]

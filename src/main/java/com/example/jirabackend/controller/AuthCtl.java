@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.*;
 
 @Slf4j
 @RestController
-public class UserCtl {
+public class AuthCtl {
 
     private final IAuthServ authServ;
 
     @Autowired
-    public UserCtl(IAuthServ authServ) {
+    public AuthCtl(IAuthServ authServ) {
         this.authServ = authServ;
     }
 
@@ -32,5 +32,13 @@ public class UserCtl {
     public Response register (@RequestBody UserRequest user) {
         log.info("register user: {}", user);
         return authServ.register(user);
+    }
+
+    @ResponseBody
+    @GetMapping("/me")
+    public Response getUser (@RequestParam String token) {
+        log.info("Token is: {}", token);
+
+        return authServ.getUser(token);
     }
 }

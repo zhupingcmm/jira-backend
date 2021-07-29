@@ -46,4 +46,12 @@ public class AuthImpl implements IAuthServ {
         response.setData(user);
         return response;
     }
+
+    @Override
+    public Response getUser(String token) {
+        Response response = new Response();
+        User user = userDao.findByToken(token);
+        response.setData(user);
+        return response;
+    }
 }

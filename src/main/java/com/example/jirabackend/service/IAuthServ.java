@@ -7,4 +7,6 @@ public interface IAuthServ {
     Response register (UserRequest userRequest);
 
     Response login (UserRequest userRequest);
+
+    Response getUser (String token);
 }
