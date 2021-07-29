@@ -20,8 +20,10 @@ public class ProjectCtl {
 
     @ResponseBody
     @GetMapping("/projects")
-    public Response getProjectList () {
-        return projectServ.findAll();
+    public Response getProjectList (@RequestParam String name, @RequestParam String personId) {
+        log.info("Name is: {}", name);
+        log.info("personId is: {}", personId);
+        return  projectServ.findByNameOrPersonId(name, personId);
     }
 
 

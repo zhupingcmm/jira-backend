@@ -7,4 +7,10 @@ import java.util.List;
 
 public interface ProjectDao extends JpaRepository<Project, Integer> {
     List<Project> findAll();
+
+    Project findByName(String name);
+
+    Project findByPersonId(int personId);
+
+
 }

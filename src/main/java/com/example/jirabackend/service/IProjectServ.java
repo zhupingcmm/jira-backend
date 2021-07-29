@@ -7,4 +7,6 @@ public interface IProjectServ {
     Response findAll () ;
 
     Response save(ProjectRequest projectRequest);
+
+    Response findByNameOrPersonId (String name, String personId);
 }
